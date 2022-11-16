@@ -3,7 +3,10 @@
 	"version": "1.0.0",
 	"description": "Packages",
 	"private": true,
-	"devDependencies": {
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"lodash.assign": "^4.2.0",
+		
 		"@babel/core": "^7.16.7",
 		"@babel/plugin-syntax-dynamic-import": "^7.8.3",
 		"@babel/plugin-transform-react-constant-elements": "^7.16.7",
@@ -42,9 +45,5 @@
 		"webpack": "5.66.0",
 		"webpack-cli": "^4.9.1",
 		"webpack-stream": "^7.0.0"
-	},
-	"dependencies": {
-		"classnames": "^2.2.6",
-		"lodash.assign": "^4.2.0"
 	}
 }
